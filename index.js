@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs').promises;
-const path = require('path');
+require('path');
 const querystring = require('querystring');
 const {checkPrivilege} = require('./addon/build/Release/addon');
 
